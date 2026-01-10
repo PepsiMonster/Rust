@@ -7,7 +7,9 @@ fn main() {
         loop {
             println!("remaining = {remaining}");
             if remaining == 9 {
-                break;
+                break;                          // Внутри loop штуки должны заканчиваться
+                                                // типа это завершенное условие
+                                                // и можно перейти к первому
             }
             if count == 2 {
                 break 'counting_up;
